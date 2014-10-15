@@ -1,0 +1,116 @@
+/*ELEMENTS*/
+/* Checkbox */
+.onoffswitch {
+  display: inline-block;
+  position: relative;
+  width: 53px; }
+
+.onoffswitch-checkbox {
+  display: none; }
+
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  border-radius: 28px; }
+
+.onoffswitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s; }
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  font-size: 10px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.onoffswitch-inner:before {
+  content: "";
+  padding-left: 5px;
+  background-color: #7AC912;
+  color: #FFFFFF; }
+
+.onoffswitch-inner:after {
+  content: "";
+  padding-right: 5px;
+  background-color: #EB3434;
+  color: #FFFFFF;
+  text-align: right; }
+
+.onoffswitch-switch {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 28px;
+  position: absolute;
+  right: 24px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s; }
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0; }
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 5px; }
+
+/* BUTTON */
+/* #autobtn - is result button */
+#autobtn {
+  line-height: 18px;
+  border: 1px solid #2ECC71;
+  font-size: 12px;
+  text-align: center;
+  background-color: #2ECC71;
+  text-decoration: none;
+  outline: none;
+  font-family: Economica; }
+
+.box-shadow {
+  box-shadow: 0px 4px 0px #27AE60; }
+
+.box-shadow:active {
+  box-shadow: 0px 2px 0px #27AE60;
+  position: relative;
+  top: 2px; }
+
+.send {
+  color: #e3e3e3;
+  margin-top: 15px;
+  border: 1px solid #517089;
+  font-size: 21px;
+  text-transform: uppercase;
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  background-color: #517089;
+  text-decoration: none;
+  outline: none;
+  font-family: Economica;
+  box-shadow: 0px 4px 0px #3c5467; }
+
+.send:active {
+  box-shadow: 0px 2px 0px #3c5467;
+  position: relative;
+  top: 2px; }
+
+/*# sourceMappingURL=elements.css.map */

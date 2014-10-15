@@ -1,0 +1,299 @@
+/*STYLE*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/css?family=Economica);
+body {
+  background-color: #e5e5e5; }
+
+.global {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto !important;
+  background-color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  margin-bottom: 30px; }
+
+.header {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  background-color: #2c3e50;
+  height: 150px;
+  font-family: Economica; }
+
+.option .result {
+  display: inline-block; }
+
+.code-msg {
+  margin-top: 40px;
+  font-family: Economica;
+  font-weight: 400;
+  font-size: 18px; }
+
+.option {
+  border-right: 2px solid #000000; }
+
+.option > h5 {
+  font-size: 1.7em;
+  font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; }
+
+.result > h5 {
+  font-size: 1.7em;
+  font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; }
+
+.form-control {
+  width: 200px !important; }
+
+.options-box {
+  display: inline-block; }
+
+.slider {
+  width: 150px !important;
+  display: inline-block !important; }
+
+.option-item {
+  padding: 5px; }
+
+.button-input {
+  width: 170px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+  text-align: center;
+  border: 0 !important; }
+
+.button-input::-webkit-input-placeholder {
+  color: #d6e5e9;
+  font-style: italic;
+  text-transform: uppercase; }
+
+.result-button {
+  margin-top: 75px; }
+
+#label_1, #label_2, #label_3, #label_4 {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#accordion {
+  text-align: left;
+  padding: 15px;
+  height: auto; }
+
+.ui-accordion-header {
+  text-align: center;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  background-color: #3c566a;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  box-shadow: 0px 5px 0px #2d4558; }
+
+.css_code {
+  color: #FFFFFF;
+  background-color: transparent;
+  margin-left: -150px;
+  margin-top: -50px;
+  width: 350px;
+  height: 320px;
+  padding: 0;
+  border: 0;
+  resize: none;
+  outline: none;
+  overflow: hidden; }
+
+.html_code {
+  color: #FFFFFF;
+  background-color: transparent;
+  margin-left: -120px;
+  width: 450px;
+  height: 100px;
+  padding: 0;
+  border: 0;
+  resize: none;
+  outline: none;
+  overflow: hidden; }
+
+.code-editor:before,
+.code-editor:after,
+.code-editor span.control:before,
+.code-editor span.after:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: wall .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.code-editor {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 40px auto 0 auto;
+  width: 450px;
+  text-align: left;
+  background-color: #473431;
+  border-radius: 0 0 5px 5px;
+  overflow: auto;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: wall .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.code-editor:before {
+  font-family: 'Consolas';
+  color: #222;
+  padding-top: 6px;
+  text-align: center;
+  top: 25px;
+  width: 450px;
+  height: 30px;
+  background-color: #fafafa;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0; }
+
+.css:before {
+  content: 'CSS'; }
+
+.html:before {
+  content: 'HTML'; }
+
+.code-editor span.control:before {
+  content: '';
+  top: 34px;
+  z-index: 2;
+  padding: 6px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px; }
+
+.code-editor span.control:nth-child(1):before {
+  margin-left: 15px;
+  background-color: #df6963; }
+
+.code-editor span.control:nth-child(2):before {
+  margin-left: 35px;
+  background-color: #f5e18a; }
+
+.code-editor span.control:nth-child(3):before {
+  margin-left: 55px;
+  background-color: #97c38a; }
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #ccc;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  direction: ltr;
+  text-align: left !important;
+  white-space: pre;
+  word-spacing: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 0.5em;
+  margin: 0em 0;
+  height: 300px;
+  overflow: auto; }
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #473431; }
+
+.send_code {
+  text-align: center;
+  margin-top: 30px; }
+
+#email {
+  line-height: 30px;
+  border: 2px solid #3c5467;
+  font-size: 30px;
+  font-family: Economica;
+  text-align: center;
+  margin: 0;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  color: #ccd4db; }
+
+.email-label {
+  width: 100%;
+  font-family: Economica;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #b1b9c0;
+  text-transform: uppercase; }
+
+#success {
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  color: #5dae8d !important;
+  padding: 2px;
+  letter-spacing: 1px;
+  font-size: 12px; }
+
+@media screen and (max-width: 992px) {
+  .option {
+    border: 0; }
+
+  .code-editor:before {
+    top: -5px; }
+
+  .code-editor span.control:before {
+    top: 5px; } }
+@media screen and (max-width: 700px) {
+  .ui-accordion .ui-accordion-content {
+    margin-bottom: 170px !important; } }
+/* -- Tablet Screen -- */
+@media only screen and (max-width: 600px) {
+  .code-editor {
+    width: 400px; }
+
+  .code-editor:before {
+    width: 400px; }
+
+  .html_code {
+    width: 290px; }
+
+  .css_code {
+    width: 270px; } }
+/* -- Phone Screen -- */
+@media only screen and (max-width: 479px) {
+  .code-editor {
+    width: 300px; }
+
+  .code-editor:before {
+    width: 300px; } }
+
+/*# sourceMappingURL=style.css.map */
