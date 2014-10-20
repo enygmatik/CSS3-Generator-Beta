@@ -5,6 +5,7 @@
 body {
   background-color: #e5e5e5;
 }
+
 .global {
   width: 100%;
   margin-left: auto;
@@ -123,10 +124,10 @@ body {
 .css_code{
   color: #FFFFFF;
   background-color: transparent;
-  margin-left: -150px;
-  margin-top: -50px;
-  width: 350px;
-  height: 320px;
+  margin-left: 10px;
+  margin-top: 10px;
+  min-width: 320px;
+  min-height:320px;
   padding: 0;
   border: 0;
   resize: none;
@@ -137,10 +138,10 @@ body {
 .html_code {
   color: #FFFFFF;
   background-color: transparent;
-  margin-left: -120px;
+  margin-left: 10px;
   //  margin-top: -70px;
-  width: 450px;
-  height: 100px;
+  min-width: 350px;
+  height: 320px;
   padding: 0;
   border: 0;
   resize: none;
@@ -240,7 +241,7 @@ pre[class*="language-"] {
   text-align: left !important;
   white-space: pre;
   word-spacing: normal;
-
+  padding: 0 !important;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
