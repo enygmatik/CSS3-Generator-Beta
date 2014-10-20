@@ -1,3 +1,6 @@
 # Created by .gitignore support plugin (hsz.mobi)
 .idea
-common.css
+gulpfile.js
+package.json
+build
+node_modules

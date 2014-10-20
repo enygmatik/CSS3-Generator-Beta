@@ -11,7 +11,7 @@ $(function () {
 var border_radius = 20,
     height = 35,
     width = 70,
-    font_size = 12,
+    font_size = 14,
     uppercase = 'none',
     uppercase_slider = $('#up_text'),
     final_btn = $('#autobtn'),
@@ -104,7 +104,7 @@ function setFont(value) {
 setWidth(width);
 setHeight(height);
 setRadius(border_radius);
-setFont(font_size);
+setFont();
 
 
 //BUTTON STYLE UPPERCASE
