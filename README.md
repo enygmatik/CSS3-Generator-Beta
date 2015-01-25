@@ -2,4 +2,4 @@ CSS3-Generator-Beta
 ===================
 loftschool homework
 
-[Demo](http://metaform.me/lab/css3b/)
+[Demo](http://lab.metaform.me/css3b/)
